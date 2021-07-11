@@ -1,0 +1,36 @@
+body{
+    line-height: 1.5;
+}
+.wrap{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.news{
+    display: flex;
+}
+
+.article{
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 24px;
+}
+
+.article img{
+    margin-right: 20px;
+}
+
+.content h3{
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.content p{
+    font-size: 16px;
+}
+
+footer{
+    background-color: burlywood;
+    text-align: center;
+    padding: 48px 0;
+}
