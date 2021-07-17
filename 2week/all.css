@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 106px;
+    margin-bottom: 32px;
+}
+
+h2 {
+    font-size: 64px;
+    line-height: 84px;
+}
+
+span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header {
+    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week2/banner.png?raw=true);
+    height: calc(100vh);
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 56px;
+}
+
+.banner {
+    width: 340px;
+    margin: auto 0;
+    color: white;
+}
+
+.banner_p{
+    line-height: 36px;
+}
+
+header ul {
+    display: flex;
+    margin-top: 40px;
+}
+
+header li {
+    margin-right: 16px;
+}
+
+.about {
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.about_border {
+    width: 384px;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
+
+.about img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.about ul {
+    margin-bottom: 24px;
+    line-height: 42px;
+}
+
+.about li {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.about_skills li {
+    margin: 28px 0;
+}
+
+.about_dot {
+    width: 22px;
+    height: 22px;
+    background-color: #891818;
+    display: inline-block;
+    margin-right: 16px;
+    border-radius: 100%;
+}
+
+.about_lh36 {
+    line-height: 36px;
+}
+
+.brand{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 56px;
+    padding-bottom: 120px;
+}
+
+.brand_1{
+    margin-bottom: 32px;
+    font-size: 24px;
+}
+
+.brand_2{
+    margin-bottom: 68px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.brand_flex{
+    width: 1200px;
+    display: flex;
+    margin: 40px auto;
+    justify-content: space-between;
+}
+
+.works{
+    margin-top: 56px;
+    text-align: center;
+    padding-bottom: 96px;
+}
+
+.works h2{
+    margin-bottom: 16px;
+}
+
+.works_1{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 56px;
+}
+
+.works_flex{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.works_flex p{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 48px;
+}
+
+footer p{
+    font-size: 24px;
+    margin: 16px 0;
+}
