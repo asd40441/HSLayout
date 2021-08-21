@@ -1,0 +1,102 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ------------------- */
+
+
+
+
+img {
+    display: block;
+}
+
+.card {
+    width: 300px;
+    position: relative;
+}
+
+.card-tag {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    writing-mode: vertical-lr;
+    letter-spacing: 5px;
+    padding: 10px;
+    background: #3F5D45;
+    color: #EAF0ED;
+}
+
+.card-text {
+    display: flex;
+}
+
+.card-title {
+    font-size: 20px;
+    line-height: 24px;
+    border: 1px solid #EAF0ED;
+    padding: 14px 28px;
+    color: #3F5D45;
+    font-weight: bold;
+}
+
+.card-btn {
+    display: block;
+    padding: 16px 90px;
+    border: none;
+    font-size: 24px;
+    line-height: 20px;
+    background: #EAF0ED;
+    color: #3F5D45;
+}
+
+.card-btn:hover {
+    background: #3F5D45;
+    color: white;
+}

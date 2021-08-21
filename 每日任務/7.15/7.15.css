@@ -1,0 +1,64 @@
+.nav {
+    background-color: #e8eeea;
+    padding: 0 10px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #00cc99;
+    padding: 5px 10px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.subtitle{
+    margin: 0;
+}
+
+.card {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.card:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.card:nth-child(2) .card-img {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.card-img {
+    margin-right: 5px;
+}
+
+.btn {
+    width: 50px;
+    padding: 8px 16px;
+    color: white;
+    background-color: #00cc99;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    text-align: center;
+}

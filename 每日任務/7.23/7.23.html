@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7/23</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="7.23.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="#" class="ham-icon">
+                <i class="fas fa-bars "></i>
+            </a>
+            <img src="https://firebasestorage.googleapis.com/v0/b/tzuhui-10c1e.appspot.com/o/others%2F202004%2F1587551913424-logo-new_%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%9F%9F%201.png?alt=media&token=7f7e11bb-8470-4bec-8b77-ebda26cb6a76"
+                alt="">
+            <ul class="dropdown">
+                <li><a href="#">系列鏡框</a></li>
+                <li><a href="#">門市據點</a></li>
+                <li><a href="#">部落格</a></li>
+                <li><a href="#">常見問題</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $('.ham-icon').click(function (e) {
+            e.preventDefault();
+            $('.dropdown').toggleClass('active')
+        })
+    </script>
+</body>
+
+</html>

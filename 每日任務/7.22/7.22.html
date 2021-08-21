@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7/22</title>
+    <link rel="stylesheet" href="7.22.css">
+</head>
+
+<body>
+    <ul class="list">
+        <li class="list-item list-title">甜點類別</li>
+        <li class="list-item active"><a class="list-link" href="#">所有甜點（48）</a></li>
+    </ul>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $('.list-item').click(function (e) {
+            e.preventDefault();
+            $(this).toggleClass('active');
+            // 請使用 toggleClass 完成此作業
+        })
+    </script>
+</body>
+
+</html>
