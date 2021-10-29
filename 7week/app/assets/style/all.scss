@@ -1,0 +1,155 @@
+body {
+  font-family: Microsoft JhengHei;
+}
+
+li {
+  font-size: 24px;
+}
+
+.back {
+  width: 1200px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+header {
+  border-bottom: 2px solid black;
+  margin-bottom: 48px;
+  line-height: 106px;
+}
+
+header h1 {
+  width: 200px;
+  font-size: 80px;
+}
+
+img {
+  width: 324px;
+  margin-bottom: 48px;
+}
+
+.title {
+  display: flex;
+  border-bottom: 1px solid black;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.title h2 {
+  font-size: 32px;
+}
+
+.title p {
+  padding-left: 16px;
+  font-size: 24px;
+  color: #A00404;
+  margin: auto 0;
+}
+
+.profile {
+  font-size: 24px;
+  margin-bottom: 72px;
+  line-height: 36px;
+}
+
+.profile ul {
+  margin-bottom: 24px;
+}
+
+.education {
+  margin-bottom: 48px;
+}
+
+.education li {
+  margin-bottom: 24px;
+}
+
+.back2 , footer {
+  background-color: #415165;
+  margin: auto 0;
+  padding-bottom: 36px;
+}
+
+.skills , .contact{
+  width: 996px;
+  margin: 0 auto;
+  padding-top: 24px;
+  color: white;
+}
+
+.title2 {
+  display: flex;
+  border-bottom: 1px solid white;
+  padding-bottom: 8px;
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.title2 h2 {
+  font-size: 32px;
+}
+
+.title2 p {
+  padding-left: 16px;
+  font-size: 24px;
+}
+
+.content {
+  width: 220px;
+  border-left: 1px solid white;
+  padding-left: 24px;
+  margin: 0 auto;
+  font-size: 24px;
+}
+
+.content li {
+  line-height: 2.0;
+}
+.space{
+  height: 72px;
+}
+.work {
+  width: 642px;
+  margin: 0 auto;
+  border-left: 1px solid black;
+  padding-left: 24px;
+  margin: 0 24px;
+}
+
+.work img {
+  width: 90px;
+  margin-bottom: 0;
+}
+
+.work li {
+  margin-bottom: 24px;
+}
+
+.workcontent {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.contact {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.data{
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.data li{
+  line-height: 36px;
+}
+.wrap{
+  height: 48px;
+  text-align: center;
+}
+.wrap img{
+  width: 48px;
+  margin: 0 12px;
+}
